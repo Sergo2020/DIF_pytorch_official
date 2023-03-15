@@ -58,10 +58,16 @@ def train_model(args: argparse.Namespace) -> None:
     real_data_root = data_root / "0_real"
     fake_data_root = data_root / "1_fake"
 
-    train_set, _, file_split = data.prep_data_sets(real_data_root, fake_data_root, hyper_pars)
+    real_path_list = [list(real_data_root.glob('*.' + x)) for x in ['jpg', 'jpeg', 'png']]
+    real_path_list = [ele for ele in real_path_list if ele != []][0]
+
+    fake_path_list = [list(fake_data_root.glob('*.' + x)) for x in ['jpg', 'jpeg', 'png']]
+    fake_path_list = [ele for ele in fake_path_list if ele != []][0]
+
+    train_set = data.PRNUData(real_path_list, fake_path_list, hyper_pars, demand_equal=False,
+                             train_mode=False)
     train_loader = train_set.get_loader()
 
-    pickle.dump(file_split, open((check_dir / 'file_split.pt'), 'wb'))
     pickle.dump(hyper_pars, open((check_dir / 'train_hypers.pt'), 'wb'))
 
     print('Preparing Trainer...')
