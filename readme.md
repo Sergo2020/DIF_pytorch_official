@@ -1,7 +1,5 @@
 # Deep Image Fingerprint: Accurate And Low Budget Synthetic Image Detector
 
-<p align="center"> The official repository of the paper. </p>
-
 <p align="center"> Sergey Sinitsa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ohad Fried</p>
 
 <p align="center"> arXiv (add link) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Project Page (add link)</p>
