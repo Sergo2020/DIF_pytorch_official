@@ -1,10 +1,8 @@
 # Deep Image Fingerprint: Accurate And Low Budget Synthetic Image Detector
 
-This is the official repository of the paper: "Deep Image Fingerprint: Accurate And Low Budget Synthetic Image Detector"
+<p align="center"> The official repository of the paper. </p>
 
-By: Sergey Sinitsa and Ohad Fried
-
-Paper (add link) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Project Page (add link)
+<p align="center"> arXiv (add link) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Project Page (add link)</p>
 
 > The generation of high-quality images has become widely accessible and is a rapidly evolving process. As a result,
 > anyone can generate images that are indistinguishable from real ones. This leads to a wide range of applications, which
