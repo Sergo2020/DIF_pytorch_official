@@ -21,6 +21,8 @@
   <img src="./repo_images/finger_sd14.png" width="15%"  alt="Stable Diffusion 1.4" />
     &nbsp; &nbsp;
   <img src="./repo_images/finger_mj.png" width="15%"  alt="MidJourney" />
+    &nbsp; &nbsp;
+  <img src="./repo_images/finger_dalle_mini.png.png" width="15%"  alt="MidJourney" />
 </p>
 <p align="center">
   <strong> Fingerprints in Fourier Space </strong>
@@ -31,6 +33,8 @@
   <img src="./repo_images/fingerFFT_sd14.png" width="15%"  alt="Stable Diffusion 1.4" />
     &nbsp; &nbsp;
   <img src="./repo_images/fingerFFT_mj.png" width="15%"  alt="MidJourney" />
+    &nbsp; &nbsp;
+  <img src="./repo_images/fingerFFT_dalle_mini.png" width="15%"  alt="MidJourney" />
 </p>
 
 <p align="center"> <hr> </p>
