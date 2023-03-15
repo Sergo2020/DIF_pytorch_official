@@ -89,7 +89,7 @@ python eval_dif.py checks/dalle_2 data_root/dalle_2 0
 
 The expected accuracy values (%) are below:
 
-<p align="center"><table style='font-size:80%'>
+<p align="center"><table style='font-size:50%'>
   <tr>
     <th>SD 1.4</th>
     <th>SD 2.1</th>
