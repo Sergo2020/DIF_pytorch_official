@@ -1,6 +1,6 @@
 # Deep Image Fingerprint: Accurate And Low Budget Synthetic Image Detector
 
-<p align="center"> Sergey Sinitsa &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ohad Fried</p>
+<p align="center"> <a href="https://www.linkedin.com/in/serge2020/">Sergey Sinitsa</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.ohadf.com/">Ohad Fried</a>
 
 <p align="center"> arXiv (add link) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Project Page (add link)</p>
 
