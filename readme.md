@@ -78,11 +78,7 @@ python train_dif.py data_root/dalle_2 checkpoint_directory/dalle_2
 #### Testing the Model
 
 We included extracted fingerprints of LTIMs and GAN models described in the paper.
-In both cases models were trained with 1024 samples. Due to file size constrains, we provide:
-
-- An external [**link**](https://drive.google.com/drive/folders/1lo2-VRR8q3Elazt9P-AF1GDVypo0cpTl?usp=sharing) to test
-  data archive, <u>which resides on anonymous google account</u>.
-- 20 samples of images per each model in /data folder
+In both cases models were trained with 1024 samples. In addition, we provide 20 samples of images per each model in /data folder
 
 To reproduce the results per model run eval_dif.py and specify fingerprint directory and data directory.
 Example for Dall$\cdot$E-2 model:
