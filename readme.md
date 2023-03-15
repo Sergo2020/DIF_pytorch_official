@@ -16,25 +16,25 @@
 </p>
 
 <p align="center">
-  <img src="./repo_images/finger_dalle_2.png" width="15%"  alt="Dall$\cdot$E-2" />
+  <img src="./repo_images/finger_dalle_2.png" width="15%"  alt="Dall&#x2022;E-2" />
     &nbsp; &nbsp;
   <img src="./repo_images/finger_sd14.png" width="15%"  alt="Stable Diffusion 1.4" />
     &nbsp; &nbsp;
   <img src="./repo_images/finger_mj.png" width="15%"  alt="MidJourney" />
     &nbsp; &nbsp;
-  <img src="./repo_images/finger_dalle_mini.png" width="15%"  alt="Dall$\cdot$E-Mini" />
+  <img src="./repo_images/finger_dalle_mini.png" width="15%"  alt="Dall&#x2022;E-Mini" />
 </p>
 <p align="center">
   <strong> Fingerprints in Fourier Space </strong>
 </p>
 <p align="center">
-  <img src="./repo_images/fingerFFT_dalle_2.png" width="15%"  alt="Dall$\cdot$E-2" />
+  <img src="./repo_images/fingerFFT_dalle_2.png" width="15%"  alt="Dall&#x2022;E-2" />
     &nbsp; &nbsp;
   <img src="./repo_images/fingerFFT_sd14.png" width="15%"  alt="Stable Diffusion 1.4" />
     &nbsp; &nbsp;
   <img src="./repo_images/fingerFFT_mj.png" width="15%"  alt="MidJourney" />
     &nbsp; &nbsp;
-  <img src="./repo_images/fingerFFT_dalle_mini.png" width="15%"  alt="Dall$\cdot$E-Mini" />
+  <img src="./repo_images/fingerFFT_dalle_mini.png" width="15%"  alt="Dall&#x2022;E-Mini" />
 </p>
 
 <p align="center"> <hr> </p>
@@ -89,14 +89,14 @@ python eval_dif.py checks/dalle_2 data_root/dalle_2 0
 
 The expected accuracy values (%) are below:
 
-<p align="center"><table>
+<p align="center"><table style='font-size:80%'>
   <tr>
     <th>SD 1.4</th>
     <th>SD 2.1</th>
     <th>MJ</th>
-    <th>Dall$\cdot$E-Mini</th>
+    <th>Dall&#x2022;E-Mini</th>
     <th>GLIDE</th>
-    <th>Dall$\cdot$E-2</th>
+    <th>Dall&#x2022;E-2</th>
     <th>CycleGAN</th>
     <th>StyleGAN</th>
     <th>StyleGAN2</th>
