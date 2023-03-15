@@ -7,8 +7,8 @@
 > The generation of high-quality images has become widely accessible and is a rapidly evolving process. As a result,
 > anyone can generate images that are indistinguishable from real ones. This leads to a wide range of applications, which
 > also include malicious usage with deception in mind. Despite advances in detection techniques for generated images, a
-> robust detection method still eludes us. In this work, we utilize the inductive bias of convolutional neural networks (
-> CNNs) to develop a new detection method that requires a small amount of training samples and achieves accuracy that is
+> robust detection method still eludes us. In this work, we utilize the inductive bias of convolutional neural networks 
+> (CNNs) to develop a new detection method that requires a small amount of training samples and achieves accuracy that is
 > on par or better than current state-of-the-art methods.
 
 <p align="center">
