@@ -1,18 +1,47 @@
-
 # Deep Image Fingerprint: Accurate And Low Budget Synthetic Image Detector
 
 This is the official repository of the paper: "Deep Image Fingerprint: Accurate And Low Budget Synthetic Image Detector"
 
 By: Sergey Sinitsa and Ohad Fried
 
-Paper (add link) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Project Page (add link)
+Paper (add link) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Project Page (add link)
 
+> The generation of high-quality images has become widely accessible and is a rapidly evolving process. As a result,
+> anyone can generate images that are indistinguishable from real ones. This leads to a wide range of applications, which
+> also include malicious usage with deception in mind. Despite advances in detection techniques for generated images, a
+> robust detection method still eludes us. In this work, we utilize the inductive bias of convolutional neural networks (
+> CNNs) to develop a new detection method that requires a small amount of training samples and achieves accuracy that is
+> on par or better than current state-of-the-art methods.
+
+<p align="center">
+  <strong> Fingerprints in Image Space </strong>
+</p>
+
+<p align="center">
+  <img src="./repo_images/finger_dalle_2.png" width="15%"  alt="Dall$\cdot$E-2" />
+    &nbsp; &nbsp;
+  <img src="./repo_images/finger_sd14.png" width="15%"  alt="Stable Diffusion 1.4" />
+    &nbsp; &nbsp;
+  <img src="./repo_images/finger_mj.png" width="15%"  alt="MidJourney" />
+</p>
+<p align="center">
+  <strong> Fingerprints in Fourier Space </strong>
+</p>
+<p align="center">
+  <img src="./repo_images/fingerFFT_dalle_2.png" width="15%"  alt="Dall$\cdot$E-2" />
+    &nbsp; &nbsp;
+  <img src="./repo_images/fingerFFT_sd14.png" width="15%"  alt="Stable Diffusion 1.4" />
+    &nbsp; &nbsp;
+  <img src="./repo_images/fingerFFT_mj.png" width="15%"  alt="MidJourney" />
+</p>
+
+<p align="center"> <hr> </p>
 
 ### Installation
 
-This project was tested using Python 3.10 with a GPU. However, it is not necessary to have a GPU for the evaluation process.
+This project was tested using Python 3.10 with a GPU. However, it is not necessary to have a GPU for the evaluation
+process.
 The required dependencies are specified in the 'requirements.txt' file.
-
 
 ### Usage
 
@@ -21,20 +50,23 @@ We provide code for three experiments as described below.
 
 #### Gray image experiment
 
-To reproduce the artifacts with a gray image, simply run 'blank_experiment.py' with the default parameters. 
+To reproduce the artifacts with a gray image, simply run 'blank_experiment.py' with the default parameters.
 An output directory will be created where you can find the reconstruction in both image space and Fourier space.
 
 Example:
+
 ```
 python blank_experment.py
 ```
 
 #### Training the Model
 
-To run 'train_dif.py', you need to specify the data directory and the model directory. 
-The data directory should include two subdirectories: '0_real' and '1_fake', for real and fake images, respectively. The model directory will be used to store the extracted fingerprints.
+To run 'train_dif.py', you need to specify the data directory and the model directory.
+The data directory should include two subdirectories: '0_real' and '1_fake', for real and fake images, respectively. The
+model directory will be used to store the extracted fingerprints.
 
-Example for Dall $\cdot$ E-2 model:
+Example for Dall$\cdot$E-2 model:
+
 ```
 python train_dif.py data_root/dalle_2 checkpoint_directory/dalle_2
 ```
@@ -43,14 +75,18 @@ python train_dif.py data_root/dalle_2 checkpoint_directory/dalle_2
 
 We included extracted fingerprints of LTIMs and GAN models described in the paper.
 In both cases models were trained with 1024 samples. Due to file size constrains, we provide:
-- An external [**link**](https://drive.google.com/drive/folders/1lo2-VRR8q3Elazt9P-AF1GDVypo0cpTl?usp=sharing) to test data archive, <u>which resides on anonymous google account</u>.
+
+- An external [**link**](https://drive.google.com/drive/folders/1lo2-VRR8q3Elazt9P-AF1GDVypo0cpTl?usp=sharing) to test
+  data archive, <u>which resides on anonymous google account</u>.
 - 20 samples of images per each model in /data folder
 
 To reproduce the results per model run eval_dif.py and specify fingerprint directory and data directory.
-Example for DallE-2 model:
+Example for Dall$\cdot$E-2 model:
+
 ```
 python eval_dif.py checks/dalle_2 data_root/dalle_2 0
 ```
+
 'data_root' refers to folder which contain sub-folders for each generative model.
 
 The expected accuracy values (%) are below:
