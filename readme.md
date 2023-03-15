@@ -22,7 +22,7 @@
     &nbsp; &nbsp;
   <img src="./repo_images/finger_mj.png" width="15%"  alt="MidJourney" />
     &nbsp; &nbsp;
-  <img src="./repo_images/finger_dalle_mini.png.png" width="15%"  alt="MidJourney" />
+  <img src="./repo_images/finger_dalle_mini.png" width="15%"  alt="Dall$\cdot$E-Mini" />
 </p>
 <p align="center">
   <strong> Fingerprints in Fourier Space </strong>
@@ -34,7 +34,7 @@
     &nbsp; &nbsp;
   <img src="./repo_images/fingerFFT_mj.png" width="15%"  alt="MidJourney" />
     &nbsp; &nbsp;
-  <img src="./repo_images/fingerFFT_dalle_mini.png" width="15%"  alt="MidJourney" />
+  <img src="./repo_images/fingerFFT_dalle_mini.png" width="15%"  alt="Dall$\cdot$E-Mini" />
 </p>
 
 <p align="center"> <hr> </p>
