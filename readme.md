@@ -47,7 +47,7 @@ The required dependencies are specified in the 'requirements.txt' file.
 
 ### Usage
 
-After setting up the repository you may train the model or reproduce some of the experiments.
+After setting up the repository you may train the model or reproduce experiments.
 We provide code for three experiments as described below.
 
 #### Gray image experiment
@@ -89,9 +89,36 @@ python eval_dif.py checks/dalle_2 data_root/dalle_2 0
 
 The expected accuracy values (%) are below:
 
-| Method | SD 1.4 | SD 2.1 | MJ | DallE-Mini | GLIDE | DallE-2 | CycleGAN | StyleGAN | StyleGAN2 | StarGAN | BigGAN | GauGAN | ProGAN |
-|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
-|DIF             | 99.3  | 89.5  | 99.0 | 99.0 | 90.3 | 79.5 | 94.4 | 96.6 | 91.5 | 99.9 | 96.9 | 91.8 | 57.7 |
-
-
+<p align="center"><table>
+  <tr>
+    <th>SD 1.4</th>
+    <th>SD 2.1</th>
+    <th>MJ</th>
+    <th>Dall$\cdot$E-Mini</th>
+    <th>GLIDE</th>
+    <th>Dall$\cdot$E-2</th>
+    <th>CycleGAN</th>
+    <th>StyleGAN</th>
+    <th>StyleGAN2</th>
+    <th>StarGAN</th>
+    <th>BigGAN</th>
+    <th>GauGAN</th>
+    <th>ProGAN</th>
+  </tr>
+  <tr>
+    <th>99.3</th>
+    <th>89.5</th>
+    <th>99.0</th>
+    <th>99.0</th>
+    <th>90.3</th>
+    <th>79.5</th>
+    <th>94.4</th>
+    <th>91.5</th>
+    <th>99.9</th>
+    <th>96.9</th>
+    <th>91.8</th>
+    <th>92.6</th>
+    <th>57.7</th>
+  </tr>
+</table> </p>
 
