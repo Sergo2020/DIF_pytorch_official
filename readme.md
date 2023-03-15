@@ -16,25 +16,25 @@
 </p>
 
 <p align="center">
-  <img src="./repo_images/finger_dalle_2.png" width="15%"  alt="Dall&#x2022;E-2" />
+  <img src="./repo_images/finger_dalle_2.png" width="20%"  alt="Dall&#x2022;E-2" />
     &nbsp; &nbsp;
-  <img src="./repo_images/finger_sd14.png" width="15%"  alt="Stable Diffusion 1.4" />
+  <img src="./repo_images/finger_sd14.png" width="20%"  alt="Stable Diffusion 1.4" />
     &nbsp; &nbsp;
-  <img src="./repo_images/finger_mj.png" width="15%"  alt="MidJourney" />
+  <img src="./repo_images/finger_mj.png" width="20%"  alt="MidJourney" />
     &nbsp; &nbsp;
-  <img src="./repo_images/finger_dalle_mini.png" width="15%"  alt="Dall&#x2022;E-Mini" />
+  <img src="./repo_images/finger_dalle_mini.png" width="20%"  alt="Dall&#x2022;E-Mini" />
 </p>
 <p align="center">
   <strong> Fingerprints in Fourier Space </strong>
 </p>
 <p align="center">
-  <img src="./repo_images/fingerFFT_dalle_2.png" width="15%"  alt="Dall&#x2022;E-2" />
+  <img src="./repo_images/fingerFFT_dalle_2.png" width="20%"  alt="Dall&#x2022;E-2" />
     &nbsp; &nbsp;
-  <img src="./repo_images/fingerFFT_sd14.png" width="15%"  alt="Stable Diffusion 1.4" />
+  <img src="./repo_images/fingerFFT_sd14.png" width="20%"  alt="Stable Diffusion 1.4" />
     &nbsp; &nbsp;
-  <img src="./repo_images/fingerFFT_mj.png" width="15%"  alt="MidJourney" />
+  <img src="./repo_images/fingerFFT_mj.png" width="20%"  alt="MidJourney" />
     &nbsp; &nbsp;
-  <img src="./repo_images/fingerFFT_dalle_mini.png" width="15%"  alt="Dall&#x2022;E-Mini" />
+  <img src="./repo_images/fingerFFT_dalle_mini.png" width="20%"  alt="Dall&#x2022;E-Mini" />
 </p>
 
 <p align="center"> <hr> </p>
