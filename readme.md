@@ -67,7 +67,7 @@ To run `train_dif.py`, you need to specify the data directory and the model dire
 The data directory should include two subdirectories: `0_real` and `1_fake`, for real and fake images, respectively. The
 model directory will be used to store the extracted fingerprints.
 
-Example for Dall$\cdot$E-2 model:
+Example for Dall#x2022;E-2 model:
 
 ```
 python train_dif.py data_root/dalle_2 checkpoint_directory/dalle_2
@@ -79,7 +79,7 @@ We included extracted fingerprints of LTIMs and GAN models described in the pape
 In both cases models were trained with 1024 samples. In addition, we provide 20 samples of images per each model in `/data` folder
 
 To reproduce the results per model run `eval_dif.py` and specify fingerprint directory and data directory.
-Example for Dall$\cdot$E-2 model:
+Example for Dall#x2022;E-2 model:
 
 ```
 python eval_dif.py checks/dalle_2 data_root/dalle_2 0
