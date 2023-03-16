@@ -43,7 +43,7 @@
 
 This project was tested using Python 3.10 with a GPU. However, it is not necessary to have a GPU for the evaluation
 process.
-The required dependencies are specified in the 'requirements.txt' file.
+The required dependencies are specified in the `requirements.txt` file.
 
 ### Usage
 
@@ -52,7 +52,7 @@ We provide code for three experiments as described below.
 
 #### Gray image experiment
 
-To reproduce the artifacts with a gray image, simply run 'blank_experiment.py' with the default parameters.
+To reproduce the artifacts with a gray image, simply run `blank_experiment.py` with the default parameters.
 An output directory will be created where you can find the reconstruction in both image space and Fourier space.
 
 Example:
@@ -63,8 +63,8 @@ python blank_experment.py
 
 #### Training the Model
 
-To run 'train_dif.py', you need to specify the data directory and the model directory.
-The data directory should include two subdirectories: '0_real' and '1_fake', for real and fake images, respectively. The
+To run `train_dif.py`, you need to specify the data directory and the model directory.
+The data directory should include two subdirectories: `0_real` and `1_fake`, for real and fake images, respectively. The
 model directory will be used to store the extracted fingerprints.
 
 Example for Dall$\cdot$E-2 model:
@@ -76,16 +76,16 @@ python train_dif.py data_root/dalle_2 checkpoint_directory/dalle_2
 #### Testing the Model
 
 We included extracted fingerprints of LTIMs and GAN models described in the paper.
-In both cases models were trained with 1024 samples. In addition, we provide 20 samples of images per each model in /data folder
+In both cases models were trained with 1024 samples. In addition, we provide 20 samples of images per each model in `/data` folder
 
-To reproduce the results per model run eval_dif.py and specify fingerprint directory and data directory.
+To reproduce the results per model run `eval_dif.py` and specify fingerprint directory and data directory.
 Example for Dall$\cdot$E-2 model:
 
 ```
 python eval_dif.py checks/dalle_2 data_root/dalle_2 0
 ```
 
-'data_root' refers to folder which contain sub-folders for each generative model.
+`data_root` refers to folder which contain sub-folders for each generative model.
 
 The expected accuracy values (%) are below:
 
