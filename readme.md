@@ -1,4 +1,4 @@
-# Deep Image Fingerprint: Accurate And Low Budget Synthetic Image Detector
+<h1 align="center">Deep Image Fingerprint: Accurate And Low Budget Synthetic Image Detector</h1> 
 
 <p align="center"> <a href="https://www.linkedin.com/in/serge2020/">Sergey Sinitsa</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.ohadf.com/">Ohad Fried</a>
 
