@@ -2,7 +2,7 @@
 
 <p align="center"> <a href="https://www.linkedin.com/in/serge2020/">Sergey Sinitsa</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://www.ohadf.com/">Ohad Fried</a>
 
-<p align="center"> arXiv (add link) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://sergo2020.github.io/DIF/">Project Page</a> </p>
+<p align="center"><a href="https://arxiv.org/abs/2303.10762">arXiv</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://sergo2020.github.io/DIF/">Project Page</a> </p>
 
 > The generation of high-quality images has become widely accessible and is a rapidly evolving process. As a result,
 > anyone can generate images that are indistinguishable from real ones. This leads to a wide range of applications, which
