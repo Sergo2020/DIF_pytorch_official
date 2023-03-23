@@ -66,7 +66,7 @@ def preform_blank(args: argparse.Namespace) -> None:
 
     fin_np = trainer.produce_fingerprint(True)
     fin_list[ep] = fin_np
-    fin_fft = data.show_prnu_fft(fin_list[ep], r'$\hat{Y}$' + f' {ep}')
+    fin_fft = data.produce_fft(fin_list[ep])
 
     # Saving output history and images from the last epoch
     np.save(str(output_dir / 'fin_history.npy'), fin_list)

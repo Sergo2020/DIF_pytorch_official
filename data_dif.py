@@ -88,6 +88,13 @@ def load_pil_image(img_path, img_size=None):
 
     return img
 
+def produce_fft(finger_npy):
+    fft_f = np.fft.fft2(finger_npy - finger_npy.mean(), axes=(0, 1), norm='forward')
+
+    finger_spec = rescale_img(np.log(np.abs(fft_f)))
+    finger_spec = np.fft.fftshift(finger_spec) ** 4
+
+    return finger_spec
 
 class PRNUData(Dataset):
     def __init__(self, real_paths, fake_paths, hyper_pars,
