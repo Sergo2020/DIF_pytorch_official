@@ -66,4 +66,4 @@ def test_dif_directory(args: argparse.Namespace) -> (float, float):
 
 if __name__ == '__main__':
     acc_f, acc_r = test_dif_directory(parse_arguments())
-    print(f'Real Acc. {100 * acc_f:.1f}% | Fake Acc. {100 * acc_r:.1f}% ---> Acc. {50 * (acc_r + acc_f):.1f}%')
+    print(f'Real Acc. {100 * acc_r:.1f}% | Fake Acc. {100 *  acc_f:.1f}% ---> Acc. {50 * (acc_r + acc_f):.1f}%')
